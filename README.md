@@ -37,7 +37,6 @@ The app computes response times, flags SLA breaches, and surfaces risk patterns 
 - [Troubleshooting](#troubleshooting)
 - [Roadmap](#roadmap)
 - [License](#license)
-- [Resume bullets (copy-paste)](#resume-bullets-copy-paste)
 
 ---
 
