@@ -1,0 +1,28 @@
+name: Refresh summaries
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # every day at 05:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install -r "311 Service Requests/requirements.txt"
+      - name: Run precompute
+        run: |
+          .venv/bin/python scripts/precompute_summaries.py --sla 24
+      - name: Upload summaries as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: summaries
+          path: data/summaries

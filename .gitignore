@@ -1,0 +1,16 @@
+# env / editor
+.venv*/ 
+.env
+.vscode/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# streamlit
+.streamlit/secrets.toml
+
+# data & exports (keep only a tiny sample if you want)
+data/
+exports/
+# allow sample if you commit one:
+!data/sample/*

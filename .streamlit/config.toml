@@ -1,0 +1,10 @@
+[server]
+fileWatcherType = "poll"
+folderWatchBlacklist = ["data","exports",".venv",".venv312",".pytest_cache","logs"]
+
+[theme]
+base = "dark"
+primaryColor = "#0A84FF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F8FA"
+textColor = "#111827"
