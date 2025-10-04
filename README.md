@@ -8,8 +8,8 @@
 Interactive analytics for NYC 311 service requests using the public dataset **`erm2-nwe9`**.  
 The app computes response times, flags SLA breaches, and surfaces risk patterns by complaint type, hour, and weekday—with sub-second interactivity on millions of rows (DuckDB + Parquet).
 
-> **Live demo:** _add your Streamlit Cloud link here_  
-> **Data window (example):** 2020-01-01 → 2024-12-31 (fully configurable)
+> **Live demo:** soon.. 
+> **Data window (example):** 2020-01-01 → 2024-12-31
 
 [Dashboard]   <img width="1512" height="859" alt="Screenshot 2025-10-04 at 1 55 29 AM" src="https://github.com/user-attachments/assets/07ba1990-119f-431c-a43b-7c5adce4389f" />
 <img width="1512" height="859" alt="Screenshot 2025-10-04 at 1 55 48 AM" src="https://github.com/user-attachments/assets/55e417c5-5975-4dac-9db9-2669f43582b7" />
