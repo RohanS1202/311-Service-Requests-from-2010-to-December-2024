@@ -11,6 +11,5 @@ __pycache__/
 
 # data & exports (keep only a tiny sample if you want)
 data/
-exports/
-# allow sample if you commit one:
-!data/sample/*
+!data/sample/
+!data/sample/**
